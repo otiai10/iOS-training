@@ -18,6 +18,15 @@
 		7C69C796173E642B005BFE8E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C69C795173E642B005BFE8E /* Default-568h@2x.png */; };
 		7C69C799173E642B005BFE8E /* CounterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C69C798173E642B005BFE8E /* CounterViewController.m */; };
 		7C69C79C173E642B005BFE8E /* CounterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C69C79A173E642B005BFE8E /* CounterViewController.xib */; };
+		7CBD1A70173F669000210FB4 /* button-add-down.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CBD1A6A173F669000210FB4 /* button-add-down.jpg */; };
+		7CBD1A71173F669000210FB4 /* button-add.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CBD1A6B173F669000210FB4 /* button-add.jpg */; };
+		7CBD1A72173F669000210FB4 /* button-clear-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CBD1A6C173F669000210FB4 /* button-clear-down.png */; };
+		7CBD1A73173F669000210FB4 /* button-clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CBD1A6D173F669000210FB4 /* button-clear.png */; };
+		7CBD1A74173F669000210FB4 /* button-substract-down.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CBD1A6E173F669000210FB4 /* button-substract-down.jpg */; };
+		7CBD1A75173F669000210FB4 /* button-substract.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CBD1A6F173F669000210FB4 /* button-substract.jpg */; };
+		7CBD1A8F173F690600210FB4 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CBD1A8E173F690600210FB4 /* background.jpg */; };
+		7CBD1A93173F986D00210FB4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CBD1A92173F986D00210FB4 /* Icon.png */; };
+		7CBD1A95173F992600210FB4 /* IconRetina.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CBD1A94173F992600210FB4 /* IconRetina.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +46,15 @@
 		7C69C797173E642B005BFE8E /* CounterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CounterViewController.h; sourceTree = "<group>"; };
 		7C69C798173E642B005BFE8E /* CounterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CounterViewController.m; sourceTree = "<group>"; };
 		7C69C79B173E642B005BFE8E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CounterViewController.xib; sourceTree = "<group>"; };
+		7CBD1A6A173F669000210FB4 /* button-add-down.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "button-add-down.jpg"; sourceTree = "<group>"; };
+		7CBD1A6B173F669000210FB4 /* button-add.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "button-add.jpg"; sourceTree = "<group>"; };
+		7CBD1A6C173F669000210FB4 /* button-clear-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-clear-down.png"; sourceTree = "<group>"; };
+		7CBD1A6D173F669000210FB4 /* button-clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-clear.png"; sourceTree = "<group>"; };
+		7CBD1A6E173F669000210FB4 /* button-substract-down.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "button-substract-down.jpg"; sourceTree = "<group>"; };
+		7CBD1A6F173F669000210FB4 /* button-substract.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "button-substract.jpg"; sourceTree = "<group>"; };
+		7CBD1A8E173F690600210FB4 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = ../background.jpg; sourceTree = "<group>"; };
+		7CBD1A92173F986D00210FB4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../projects/Counter/Icon.png; sourceTree = "<group>"; };
+		7CBD1A94173F992600210FB4 /* IconRetina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IconRetina.png; path = ../../projects/Counter/IconRetina.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 		7C69C773173E642B005BFE8E = {
 			isa = PBXGroup;
 			children = (
+				7CBD1A69173F669000210FB4 /* Images */,
 				7C69C785173E642B005BFE8E /* Counter */,
 				7C69C77E173E642B005BFE8E /* Frameworks */,
 				7C69C77D173E642B005BFE8E /* Products */,
@@ -105,6 +124,23 @@
 				7C69C795173E642B005BFE8E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CBD1A69173F669000210FB4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7CBD1A92173F986D00210FB4 /* Icon.png */,
+				7CBD1A8E173F690600210FB4 /* background.jpg */,
+				7CBD1A94173F992600210FB4 /* IconRetina.png */,
+				7CBD1A6A173F669000210FB4 /* button-add-down.jpg */,
+				7CBD1A6B173F669000210FB4 /* button-add.jpg */,
+				7CBD1A6C173F669000210FB4 /* button-clear-down.png */,
+				7CBD1A6D173F669000210FB4 /* button-clear.png */,
+				7CBD1A6E173F669000210FB4 /* button-substract-down.jpg */,
+				7CBD1A6F173F669000210FB4 /* button-substract.jpg */,
+			);
+			name = Images;
+			path = ../../Downloads/Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +200,15 @@
 				7C69C794173E642B005BFE8E /* Default@2x.png in Resources */,
 				7C69C796173E642B005BFE8E /* Default-568h@2x.png in Resources */,
 				7C69C79C173E642B005BFE8E /* CounterViewController.xib in Resources */,
+				7CBD1A70173F669000210FB4 /* button-add-down.jpg in Resources */,
+				7CBD1A71173F669000210FB4 /* button-add.jpg in Resources */,
+				7CBD1A72173F669000210FB4 /* button-clear-down.png in Resources */,
+				7CBD1A73173F669000210FB4 /* button-clear.png in Resources */,
+				7CBD1A74173F669000210FB4 /* button-substract-down.jpg in Resources */,
+				7CBD1A75173F669000210FB4 /* button-substract.jpg in Resources */,
+				7CBD1A8F173F690600210FB4 /* background.jpg in Resources */,
+				7CBD1A93173F986D00210FB4 /* Icon.png in Resources */,
+				7CBD1A95173F992600210FB4 /* IconRetina.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +344,7 @@
 				7C69C7A1173E642B005BFE8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

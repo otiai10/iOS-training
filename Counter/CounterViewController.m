@@ -14,6 +14,15 @@
 
 @implementation CounterViewController
 
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
+{
+    if (toInterfaceOrientation == UIInterfaceOrientationPortrait) {
+        return YES;
+    } else {
+        return NO;
+    }
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -28,7 +37,26 @@
 
 - (IBAction)add {
     count = count + 1;
-    self.display.text = [NSString stringWithFormat:@"%d", count];
+    [self updateDisplay];
 }
+
+- (IBAction)clear {
+    count = 0;
+    [self updateDisplay];
+}
+
+- (IBAction)substract {
+    count = count -1;
+    if(count < 0){
+        count = 0;
+    }
+    [self updateDisplay];
+}
+
+- (void)updateDisplay {
+    self.display.text = [NSString stringWithFormat:@"%04d", count];
+}
+
+
 
 @end

@@ -16,5 +16,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *display;
 
 - (IBAction)add;
+- (IBAction)clear;
+- (IBAction)substract;
 
 @end
