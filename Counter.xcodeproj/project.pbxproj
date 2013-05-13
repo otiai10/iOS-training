@@ -18,6 +18,7 @@
 		7C69C796173E642B005BFE8E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C69C795173E642B005BFE8E /* Default-568h@2x.png */; };
 		7C69C799173E642B005BFE8E /* CounterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C69C798173E642B005BFE8E /* CounterViewController.m */; };
 		7C69C79C173E642B005BFE8E /* CounterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C69C79A173E642B005BFE8E /* CounterViewController.xib */; };
+		7CAAAA5C17410D92005F4BE9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CAAAA5B17410D92005F4BE9 /* Default.png */; };
 		7CBD1A70173F669000210FB4 /* button-add-down.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CBD1A6A173F669000210FB4 /* button-add-down.jpg */; };
 		7CBD1A71173F669000210FB4 /* button-add.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CBD1A6B173F669000210FB4 /* button-add.jpg */; };
 		7CBD1A72173F669000210FB4 /* button-clear-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CBD1A6C173F669000210FB4 /* button-clear-down.png */; };
@@ -46,6 +47,7 @@
 		7C69C797173E642B005BFE8E /* CounterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CounterViewController.h; sourceTree = "<group>"; };
 		7C69C798173E642B005BFE8E /* CounterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CounterViewController.m; sourceTree = "<group>"; };
 		7C69C79B173E642B005BFE8E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CounterViewController.xib; sourceTree = "<group>"; };
+		7CAAAA5B17410D92005F4BE9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
 		7CBD1A6A173F669000210FB4 /* button-add-down.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "button-add-down.jpg"; sourceTree = "<group>"; };
 		7CBD1A6B173F669000210FB4 /* button-add.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "button-add.jpg"; sourceTree = "<group>"; };
 		7CBD1A6C173F669000210FB4 /* button-clear-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-clear-down.png"; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 		7CBD1A69173F669000210FB4 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				7CAAAA5B17410D92005F4BE9 /* Default.png */,
 				7CBD1A92173F986D00210FB4 /* Icon.png */,
 				7CBD1A8E173F690600210FB4 /* background.jpg */,
 				7CBD1A94173F992600210FB4 /* IconRetina.png */,
@@ -209,6 +212,7 @@
 				7CBD1A8F173F690600210FB4 /* background.jpg in Resources */,
 				7CBD1A93173F986D00210FB4 /* Icon.png in Resources */,
 				7CBD1A95173F992600210FB4 /* IconRetina.png in Resources */,
+				7CAAAA5C17410D92005F4BE9 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
